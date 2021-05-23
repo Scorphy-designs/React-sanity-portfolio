@@ -1,13 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import sanityClient from "../client";
-import { imageUrlBuilder } from "@sanity/image-url";
-import BlockContent from "@sanity/block-content-to-react";
-
-// const builder = imageUrlBuilder(sanityClient);
-// function urlFor(source) {
-// 	return builder.image(source);
-// }
 
 export default function SinglePost() {
 	const [singlePost, setSinglePost] = useState(null);
@@ -65,11 +58,11 @@ export default function SinglePost() {
 						/>
 					</header>
 					<div className="px-16 lg:px-48 py-12 lg:20 prose lg:prose-xl max-w-full">
-						<BlockContent
+						{/* <BlockContent
 							blocks={singlePost.body}
 							projectId="88wfqa0l"
 							dataset="production"
-						/>
+						/> */}
 					</div>
 				</article>
 			</main>

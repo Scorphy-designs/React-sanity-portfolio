@@ -38,8 +38,7 @@ function Project() {
 											href={project.link}
 											alt={project.title}
 											target="_blank"
-											rel="noopener noreferrer
-								"
+											rel="noopener noreferrer"
 										>
 											{project.title}
 										</a>

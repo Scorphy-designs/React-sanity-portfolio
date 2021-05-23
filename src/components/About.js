@@ -26,7 +26,6 @@ function About() {
 						<h1>{author.name}</h1>
 
 						<div>
-							<h1></h1>
 							<div>Block Content</div>
 						</div>
 					</section>
